@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 import logo from './logo.svg'
 import './App.css'
-=======
 import * as React from 'react'
 import './mocks'
 import {useAuth} from './context/AuthContext'
@@ -11,7 +9,6 @@ const UnauthApp = React.lazy(() => import('./UnauthApp'))
 const AuthApp = React.lazy(() =>
   import(/* webpackPrefetch: true */ './AuthApp'),
 )
->>>>>>> exercises/18-tests-end-to-end
 
 function App() {
   return (
@@ -34,9 +31,6 @@ function App() {
   )
 }
 
-<<<<<<< HEAD
-export default App
-=======
 const AppConsumer = () => {
   const {authUser} = useAuth()
   return (
@@ -47,4 +41,3 @@ const AppConsumer = () => {
 }
 
 export {App}
->>>>>>> exercises/18-tests-end-to-end

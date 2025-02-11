@@ -1,14 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-<<<<<<< HEAD
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-=======
-import {App} from './App'
-import reportWebVitals from './reportWebVitals'
 import {Profiler} from './components/Profiler'
->>>>>>> exercises/18-tests-end-to-end
 
 ReactDOM.render(
   <React.StrictMode>
